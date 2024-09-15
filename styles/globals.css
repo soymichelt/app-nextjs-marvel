@@ -1,0 +1,40 @@
+@font-face {
+  font-family: Proxima-Soft;
+  src: url(/fonts/ProximaSoft-Regular.ttf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: Proxima-Soft;
+  src: url(/fonts/ProximaSoft-Medium.ttf);
+  font-weight: 500;
+}
+@font-face {
+  font-family: Proxima-Soft;
+  src: url(/fonts/ProximaSoft-Bold.ttf);
+  font-weight: bold;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Proxima-Soft", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6, p, ul {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
